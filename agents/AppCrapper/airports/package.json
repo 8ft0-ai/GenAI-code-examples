@@ -1,0 +1,35 @@
+{
+    "name": "australian-airport-distance-app",
+    "version": "1.0.0",
+    "description": "A full stack TypeScript app for calculating distances between major airports in Australia",
+    "main": "server/index.ts",
+    "scripts": {
+        "start": "bun server/run.ts",
+        "dev": "bun i && bun --watch server/index.ts"
+    },
+    "dependencies": {
+        "axios": "latest",
+        "cookie-parser": "latest",
+        "esbuild": "latest",
+        "express": "latest",
+        "leaflet": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-leaflet": "latest",
+        "socket.io": "latest",
+        "socket.io-client": "latest",
+        "sqlite3": "latest"
+    },
+    "devDependencies": {
+        "@types/cookie-parser": "latest",
+        "@types/express": "latest",
+        "@types/leaflet": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "@types/sqlite3": "latest",
+        "bun-types": "latest",
+        "esbuild-plugin-copy": "^2.1.1",
+        "esbuild-plugin-url": "^0.0.1",
+        "typescript": "latest"
+    }
+}

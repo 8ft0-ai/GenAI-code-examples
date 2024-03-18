@@ -1,0 +1,41 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.leaflet-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.selected-airports {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.selected-airports h2 {
+  margin-bottom: 10px;
+}
+
+.selected-airports ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-airports li {
+  margin-bottom: 5px;
+}
+
+.selected-airports p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
