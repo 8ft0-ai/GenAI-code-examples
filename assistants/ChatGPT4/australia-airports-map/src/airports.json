@@ -1,0 +1,78 @@
+[
+    {
+      "name": "Sydney Kingsford Smith Airport",
+      "code": "SYD",
+      "coordinates": [-33.9399228, 151.1752764]
+    },
+    {
+      "name": "Melbourne Airport",
+      "code": "MEL",
+      "coordinates": [-37.6690124, 144.8410273]
+    },
+    {
+      "name": "Brisbane Airport",
+      "code": "BNE",
+      "coordinates": [-27.4052778, 153.1175]
+    },
+    {
+      "name": "Perth Airport",
+      "code": "PER",
+      "coordinates": [-31.940278, 115.966944]
+    },
+    {
+      "name": "Adelaide Airport",
+      "code": "ADL",
+      "coordinates": [-34.945, 138.530556]
+    },
+    {
+      "name": "Gold Coast Airport",
+      "code": "OOL",
+      "coordinates": [-28.1666667, 153.5166667]
+    },
+    {
+      "name": "Cairns Airport",
+      "code": "CNS",
+      "coordinates": [-16.8858333, 145.7558333]
+    },
+    {
+      "name": "Canberra Airport",
+      "code": "CBR",
+      "coordinates": [-35.3069444, 149.195]
+    },
+    {
+      "name": "Hobart Airport",
+      "code": "HBA",
+      "coordinates": [-42.8361111, 147.5102778]
+    },
+    {
+      "name": "Darwin Airport",
+      "code": "DRW",
+      "coordinates": [-12.4083333, 130.8725]
+    },
+    {
+      "name": "Townsville Airport",
+      "code": "TSV",
+      "coordinates": [-19.2525, 146.765278]
+    },
+    {
+      "name": "Sunshine Coast Airport",
+      "code": "MCY",
+      "coordinates": [-26.6033333, 153.0911111]
+    },
+    {
+      "name": "Newcastle Airport",
+      "code": "NTL",
+      "coordinates": [-32.7944444, 151.8341667]
+    },
+    {
+      "name": "Launceston Airport",
+      "code": "LST",
+      "coordinates": [-41.5452778, 147.2147222]
+    },
+    {
+      "name": "Albury Airport",
+      "code": "ABX",
+      "coordinates": [-36.0677778, 146.9580556]
+    }
+  ]
+  
