@@ -44,14 +44,27 @@ server.listen(port, () => {
         entryPoints: [path.join(folder, client_entry)],
         outdir: path.join(folder, 'dist'),
         bundle: true,
-        write: false
+        write: false,
+        loader: {
+            '.png': 'file',
+            '.jpg': 'file',
+            '.gif': 'file',
+            '.svg': 'file'
+        }
     });
 
     fs.watch(path.join(folder, 'client'), { recursive: true }, async (event, filename) => {
         const result = await esbuild.build({
             entryPoints: [path.join(folder, client_entry)],
             outdir: path.join(folder, 'dist'),
-            bundle: true
+            bundle: true,
+            loader: {
+                '.png': 'file',
+                '.jpg': 'file',
+                '.gif': 'file',
+                '.svg': 'file'
+            }
+
         });
     });
 
